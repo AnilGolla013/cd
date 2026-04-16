@@ -1,6 +1,6 @@
 %{
-#include "y.tab.h"
 #include<stdlib.h>
+#include "cal.tab.h"
 %}
 
 %%

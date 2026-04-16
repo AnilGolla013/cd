@@ -3,11 +3,11 @@
 %}
 
 %%
-[a-zA-Z]    return L;
-[0-9]       return D;
-\n          return '\n';
-[ \t]       ;
-.           return yytext[0];
+[a-zA-Z] return L;
+[0-9]    return D;
+\n       return '\n';
+[ \t]    ;
+.        return yytext[0];
 %%
 
-int yywrap() { return 1; }
+int yywrap(){ return 1; }

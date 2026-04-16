@@ -11,6 +11,8 @@ S : E { printf("Valid Expression\n"); }
 
 E : E '+' E
   | E '*' E
+  | E '-' E
+  | E '/' E
   | '(' E ')'
   | 'a'
   ;
